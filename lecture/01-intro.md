@@ -12,11 +12,10 @@
 ## Example: Linear demand and supply model
 
 - Consider a linear demand and supply model:
-  \begin{align}
+$$
       Q_i^d = \alpha + \beta P_i + \gamma X_i + \epsilon_i \\
       Q_i^s = \delta + \theta P_i + \zeta Z_i + \nu_i
-  \end{align}
-
+$$
 - The parameters of the model are: $\alpha, \beta, \gamma, \delta, \theta, \zeta$
 - The observed exogenous variables are: $X_i, Z_i$
 - The unobserved exogenous variables (shocks) are: $\epsilon_i, \nu_i$ (assume standard deviations of 1 for simplicity and mutually i.i.d.)
